@@ -1,0 +1,15 @@
+fname=input("Enter File Name : ")
+x=fname.index('.')
+ex=fname[x+1:]
+if ex=="py":
+    print("Extension File : Python")
+elif ex=="doc" or ex=="docx":
+    print("Extension File : Word ")
+elif ex=="doc" or ex=="java":
+    print("Extension File : java ")
+elif ex=="doc" or ex=="cpp":
+    print("Extension File : c++ ")
+elif ex=="doc" or ex=="c":
+    print("Extension File : c ")
+else:
+    print("any other ")
